@@ -1,55 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default browser styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
+body {
+    line-height: 1.6;
+    padding: 20px;
+    
+}
+
+.header {
     text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-h1 {
-    margin: 0;
+.logo {
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-nav {
-    margin: 20px 0;
+.title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
-nav a {
-    color: #ffffff;
-    text-decoration: none;
+.description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
     margin: 0 15px;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.nav-link {
+    text-decoration: none;
+    color: #333;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.nav-link:hover {
+    color: #007BFF;
 }
 
-.section {
-    padding: 20px;
-    background: #ffffff;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}

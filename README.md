@@ -5,7 +5,7 @@ This is a portfolio website project that showcases various projects and skills.
 ## Project Structure
 
 ```
-portfolio-website
+Matabane Silas Portfolio 2025
 ├── src
 │   ├── index.html        # Main HTML document for the portfolio website
 │   ├── styles
